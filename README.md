@@ -29,6 +29,7 @@ Este proyecto utiliza FastAPI para crear una API sencilla con acceso a una base 
 - **`POST /questions/`**: Crea una pregunta con opciones.
 - **`GET /questions/{id}`**: Obtiene una pregunta.
 - **`GET /choices/{id}`**: Obtiene las opciones de una pregunta.
+
 **Ejecución** 🎉
 Inicia el servidor:
    ```bash
