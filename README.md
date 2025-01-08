@@ -24,11 +24,11 @@ Este proyecto utiliza FastAPI para crear una API sencilla con acceso a una base 
 
    pip install fastapi uvicorn sqlalchemy pydantic
    Configura tu base de datos en database.py.
-**Endpoints Principales** 🌐
-GET /: Mensaje de bienvenida.
-POST /questions/: Crea una pregunta con opciones.
-GET /questions/{id}: Obtiene una pregunta.
-GET /choices/{id}: Obtiene las opciones de una pregunta.
+## Endpoints Principales 🌐
+- **`GET /`**: Mensaje de bienvenida.
+- **`POST /questions/`**: Crea una pregunta con opciones.
+- **`GET /questions/{id}`**: Obtiene una pregunta.
+- **`GET /choices/{id}`**: Obtiene las opciones de una pregunta.
 **Ejecución** 🎉
 Inicia el servidor:
    ```bash
